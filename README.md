@@ -1,9 +1,9 @@
 # 介绍
 你好！我是Autumn。本网页基于Jekyll主题Chirpy模板搭建，感谢原作者提供的模板。下方是原文件中关于Chirpy Starter的介绍。
 
-- 本人网页地址： ![AuTuMnnn网页](https://autumnnn458.github.io/)
-- Chirpy主题地址: ![Chirpy](http://jekyllthemes.org/themes/jekyll-theme-chirpy/)
-- Chirpy demo: ![Chirpy demo](https://chirpy.cotes.page/)
+- 本人网页地址： [AuTuMnnn网页](https://autumnnn458.github.io/)
+- Chirpy主题地址: [Chirpy](http://jekyllthemes.org/themes/jekyll-theme-chirpy/)
+- Chirpy demo: [Chirpy demo](https://chirpy.cotes.page/)
 
 再次感谢chirpy作者提供的网页模板，以及github pages提供的在线网页部署服务。
 
