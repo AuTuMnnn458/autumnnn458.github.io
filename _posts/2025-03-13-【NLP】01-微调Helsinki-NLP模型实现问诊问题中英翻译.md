@@ -8,7 +8,7 @@ tags: [NLP, 机器翻译, 微调]
 
 ## 项目简介
 使用Helsinki-NLP模型对数据tico-19进行微调。
-- 项目地址： https://github.com/AuTuMnnn458/NLP_project/tree/main/nlp01
+- 项目地址：[nlp01](https://github.com/AuTuMnnn458/NLP_project/tree/main/nlp01)
 
 ### 模型
 Helsinki-NLP--opus-mt-zh-en 
