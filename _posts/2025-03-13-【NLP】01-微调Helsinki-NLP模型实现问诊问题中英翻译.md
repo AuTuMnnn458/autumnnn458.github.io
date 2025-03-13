@@ -14,6 +14,7 @@ tags: [NLP, 机器翻译, 微调]
 Helsinki-NLP--opus-mt-zh-en 
 - 地址：[Helsinki-NLP--opus-mt-zh-en(hugging face)](https://huggingface.co/Helsinki-NLP/opus-mt-zh-en)
 - 简介：一个比较适合做中英翻译的模型，框架跟transformer基本一致，系数给得比较小，轻量化。
+- 
 ### 数据
 tico19
 - 地址：[tico19-en-zh(hugging face)](https://huggingface.co/datasets/gmnlp/tico19/viewer/en-zh)
