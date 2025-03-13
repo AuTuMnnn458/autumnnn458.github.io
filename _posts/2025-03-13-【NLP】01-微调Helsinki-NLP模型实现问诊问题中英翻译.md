@@ -2,7 +2,7 @@
 title: 【NLP】01-微调Helsinki-NLP模型实现问诊问题中英翻译
 author: Autumn
 date: 2025-03-13 +0800
-categories: [NLP, 项目]
+categories: [NLP, NLP项目]
 tags: [NLP, 机器翻译, 微调]
 ---
 
