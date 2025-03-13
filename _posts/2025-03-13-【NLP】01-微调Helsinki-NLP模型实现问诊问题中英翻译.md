@@ -2,7 +2,7 @@
 title: 【NLP】01-微调Helsinki-NLP模型实现问诊问题中英翻译
 author: Autumn
 date: 2025-03-13 +0800
-categories: [NLP]
+categories: [NLP, 项目]
 tags: [NLP, 机器翻译, 微调]
 ---
 
@@ -14,7 +14,7 @@ tags: [NLP, 机器翻译, 微调]
 Helsinki-NLP--opus-mt-zh-en 
 - 地址：[Helsinki-NLP--opus-mt-zh-en(hugging face)](https://huggingface.co/Helsinki-NLP/opus-mt-zh-en)
 - 简介：一个比较适合做中英翻译的模型，框架跟transformer基本一致，系数给得比较小，轻量化。
-- 
+
 ### 数据
 tico19
 - 地址：[tico19-en-zh(hugging face)](https://huggingface.co/datasets/gmnlp/tico19/viewer/en-zh)
