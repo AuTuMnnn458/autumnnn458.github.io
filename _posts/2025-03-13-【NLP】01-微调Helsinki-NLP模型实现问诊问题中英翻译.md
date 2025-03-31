@@ -7,7 +7,7 @@ tags: [NLP, 机器翻译, 微调]
 ---
 
 ## 项目简介
-使用Helsinki-NLP模型对数据tico-19进行微调。
+使用Helsinki-NLP模型对数据tico-19进行微调，并使用gradio搭建前端简易翻译系统。
 - 项目地址：[nlp01](https://github.com/AuTuMnnn458/NLP_project/tree/main/nlp01)
 
 ### 模型
@@ -24,6 +24,7 @@ tico19
 1. 对于`AutoModelForSeq2SeqLM`我使用的比较少，发现它跟`AutoModelForCasualLM`的参数名字差别还是比较大的。
 2. 该项目中用的库都是跟`seq2seq`相关的，例如预训练模型`AutoModelForSeq2SeqLM`，参数设置`Seq2SeqTrainingArguments`，数据收集器`DataCollatorForSeq2Seq`， Trainer用的也是`Seq2SeqTrainer`。
 3. 训练时间还可以，使用GTX4060，epoch=10跑了14分钟，总步数为3070步。训练出来的模型效果比想象中要好，除了数据集中的原问题可以正确回答，一些比较相关的句子也是可以正常翻译的。我自己做了一个例子：`我觉得我的肺部很痛，无法入睡。`翻译为`i feel a pain in my lungs and can't sleep.`。
+4. （2025.3.31更新）训练时能达到5it/s，1分钟左右一个epoch，但是在验证计算metrics时速度变得极为缓慢，大约0.5it/s，一轮验证需要5分钟。初步判断是metrics中计算sacrebleu导致的。可以先注释trainer中的compute_metrics，不计算BLEU.
 
 
 
